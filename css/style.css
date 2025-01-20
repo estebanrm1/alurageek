@@ -204,7 +204,7 @@ form button[type="reset"]:hover {
     }
 
     main {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 .card{
