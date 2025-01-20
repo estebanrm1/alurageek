@@ -1,0 +1,106 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Super Nintendo Entertainment System",
+            "precio": 150,
+            "imagen": "https://images-cdn.ubuy.com.ar/6352cf61c6b64430967233a5-super-nintendo-entertainment-system.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Game Boy",
+            "precio": 80,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/800px-Game-Boy-FL.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Sega Genesis",
+            "precio": 130,
+            "imagen": "https://m.media-amazon.com/images/I/51PCiqTcClL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Atari 2600",
+            "precio": 60,
+            "imagen": "https://www.manualpdf.es/thumbs/products/l/1001998-atari-2600.webp"
+        },
+        {
+            "id": 5,
+            "nombre": "Family ",
+            "precio": "100",
+            "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/8e150fe719f9f6b48fc45e72cadb196c3de7c92c.jpg.webp"
+        },
+        {
+            "id": 6,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 13,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": 16,
+            "nombre": "NES - Nintendo Entertainment System",
+            "precio": 100,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nintendo-Entertainment-System-Console-Set.jpg/1024px-Nintendo-Entertainment-System-Console-Set.jpg"
+        },
+        {
+            "id": "7078",
+            "nombre": "Family ",
+            "precio": "100",
+            "imagen": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/8e150fe719f9f6b48fc45e72cadb196c3de7c92c.jpg.webp"
+        }
+    ]
+}
