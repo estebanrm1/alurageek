@@ -72,9 +72,9 @@ main {
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
-    max-width: 200px; /* Ancho fijo para las cards */
-    height: 300px; /* Altura fija para las cards */
-    justify-content: space-between; /* Asegura que los elementos se distribuyan bien */
+    max-width: 200px;
+    height: 300px;
+    justify-content: space-between;
 }
 
 .card .info {
@@ -96,13 +96,13 @@ main {
     font-size: 1.1em;
     color: #e74c3c;
     text-align: left;
-    margin-top: auto; /* Empuja el precio hacia la parte inferior */
+    margin-top: auto;
 }
 .card .precio-eliminar {
     display: flex;
-    justify-content: space-between; /* Espacio entre el precio y el botón */
-    align-items: center; /* Alinea los elementos en el eje vertical */
-    margin-top: auto; /* Empuja el precio y el botón hacia la parte inferior */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
   }
 
 .card .eliminar-btn {
@@ -114,8 +114,8 @@ main {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    align-self: flex-start; /* Alinea el botón a la izquierda */
-    margin-top: 10px; /* Agrega un pequeño espacio entre el precio y el botón */
+    align-self: flex-start;
+    margin-top: 10px;
 }
 
 .card .eliminar-btn:hover {
@@ -179,7 +179,6 @@ form button[type="reset"]:hover {
     
     #productos {
         grid-template-columns: repeat(2, 1fr) ;
-        /* 2 columnas en pantallas medianas */
     }
 
     .catalogo__productos{
@@ -199,7 +198,6 @@ form button[type="reset"]:hover {
 @media (max-width: 480px) {
     #productos {
         grid-template-columns: 1fr;
-        /* 1 columna en pantallas pequeñas */
     }
 .catalogo__productos{
         margin: 0;

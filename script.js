@@ -4,13 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("producto-form");
     const productosContainer = document.getElementById("productos");
 
-    // Cargar productos desde la API
     const cargarProductos = async () => {
         try {
             const response = await fetch(API_URL);
             const productos = await response.json();
 
-            // Limpiar el contenedor y renderizar los productos
             productosContainer.innerHTML = "";
             productos.forEach((producto) => {
                 agregarProductoAlDOM(producto);
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    // Agregar un producto al DOM
     const agregarProductoAlDOM = (producto) => {
         const card = document.createElement("div");
         card.classList.add("card");
@@ -37,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         `;
 
-        // Evento para eliminar producto
         card.querySelector(".eliminar-btn").addEventListener("click", async () => {
             const id = card.dataset.id;
             try {
@@ -51,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
         productosContainer.appendChild(card);
     };
 
-    // Manejar el formulario para agregar productos
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
@@ -73,13 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const productoCreado = await response.json();
             agregarProductoAlDOM(productoCreado);
 
-            // Limpiar el formulario
             form.reset();
         } catch (error) {
             console.error("Error al agregar el producto:", error);
         }
     });
 
-    // Inicializar cargando los productos
     cargarProductos();
 });
